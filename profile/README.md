@@ -10,7 +10,17 @@ The main objective of project ICOS is to design, develop and validate a meta ope
 - guaranteed **trust, security and privacy**, and
 - reduction of integration costs and effective **mitigation of cloud provider lock-in** effects, - in a datadriven system built upon the principles of openness, adaptability, data sharing and a future edge market scenario for services and data.
 
+# Structure of the this organization
+We are publishing in this organization all the open source code developed by ICOS. The code is organized in several repositories that roughly corresponds to the different ICOS components. To start discovering the ICOS code, we suggest to start from:
 
+- [Documentation](https://github.com/icos-project/Documentation): the source code of the ICOS technical documentation available at https://www.icos-project.eu/docs/
+- [Shell](https://github.com/icos-project/Shell): the tool for users to access and operate an ICOS system
+- [ICOS Controller Suite](https://github.com/icos-project/ICOS-Controller-Suite): the Helm Chart to deploy a new ICOS Controller
+- [ICOS Agent Suite](https://github.com/icos-project/ICOS-Agent-Suite): the Helm Chart to deploy a new ICOS Agent
+- [ICOS Meta OS](https://github.com/icos-project/ICOS-Meta-OS): the entire ICOS System source code (obtained integrating the single components' source code repositories)
+
+
+It is importnat to note that the repositories in this organizations are mirrors of the original repositories used by the ICOS team for the development (that are private).
 
 ---
 
