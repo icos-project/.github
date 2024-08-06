@@ -10,8 +10,20 @@ The main objective of project ICOS is to design, develop and validate a meta ope
 - guaranteed **trust, security and privacy**, and
 - reduction of integration costs and effective **mitigation of cloud provider lock-in** effects, - in a datadriven system built upon the principles of openness, adaptability, data sharing and a future edge market scenario for services and data.
 
-# Structure of the this organization
-We are publishing in this organization all the open source code developed by ICOS. The code is organized in several repositories that roughly corresponds to the different ICOS components. To start discovering the ICOS code, we suggest to start from:
+# Getting Started
+
+🌐 To start looking at what the **ICOS EU Project** is doing, go to the official web site at https://icos-project.eu/
+
+🤖 To start learning what is the **ICOS Meta OS**, the software produced by ICOS, to to the official **technical documentation** at https://icos-project.eu/docs. It is divided into multiple sections:
+- 🧭 [Concepts](https://icos-project.eu/docs/Concepts/): learn the ICOS Meta OS architecture and functionalities
+- ⚙️ [Administration Guide](https://icos-project.eu/docs/Administration/): how to deploy and manage an ICOS System
+- 👤 [User Guide](https://icos-project.eu/docs/User/): how to use an ICOS System
+- 💻 [Development Guide](https://icos-project.eu/docs/Developer/): how to integrate with or extend ICOS components
+- 📖 [Glossary](https://icos-project.eu/docs/Concepts/glossary/): collects the main definitions and conventions used in ICOS
+
+
+# Structure of the the ICOS source code
+We are publishing in this organization all the open source code developed by ICOS. The code is organized in several repositories that corresponds to the different ICOS components. To start discovering the ICOS code, we suggest to start from:
 
 - [Documentation](https://github.com/icos-project/Documentation): the source code of the ICOS technical documentation available at https://www.icos-project.eu/docs/
 - [Shell](https://github.com/icos-project/Shell): the tool for users to access and operate an ICOS system
