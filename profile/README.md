@@ -4,35 +4,51 @@
 
 # The ICOS Project
 
-The main objective of project ICOS is to design, develop and validate a meta operating system for a continuum, by addressing the challenges of:
-- **devices volatility and heterogeneity**, continuum infrastructure virtualization and diverse network connectivity;
-- **optimized and scalable service execution and performance**, as well as resources consumptions, including power consumption;
-- guaranteed **trust, security and privacy**, and
-- reduction of integration costs and effective **mitigation of cloud provider lock-in** effects, - in a datadriven system built upon the principles of openness, adaptability, data sharing and a future edge market scenario for services and data.
+The primary objective of the ICOS project is to design, develop, and validate a meta operating system for the continuum, addressing key challenges such as:
 
-# Getting Started
+- **Device volatility and heterogeneity**, virtualization across the continuum infrastructure, and diverse network connectivity;
 
-🌐 To start looking at what the **ICOS EU Project** is doing, go to the official web site at https://icos-project.eu/
+- **Optimized, scalable service execution and performance**, including efficient resource utilization and reduced power consumption;
 
-🤖 To start learning what is the **ICOS Meta OS**, the software produced by ICOS, to to the official **technical documentation** at https://icos-project.eu/docs. It is divided into multiple sections:
-- 🧭 [Concepts](https://icos-project.eu/docs/Concepts/): learn the ICOS Meta OS architecture and functionalities
-- ⚙️ [Administration Guide](https://icos-project.eu/docs/Administration/): how to deploy and manage an ICOS System
-- 👤 [User Guide](https://icos-project.eu/docs/User/): how to use an ICOS System
-- 💻 [Development Guide](https://icos-project.eu/docs/Developer/): how to integrate with or extend ICOS components
-- 📖 [Glossary](https://icos-project.eu/docs/Concepts/glossary/): collects the main definitions and conventions used in ICOS
+- **Ensuring trust, security, and privacy** across all layers of the system; and
 
+- **Lowering integration costs** and effectively **mitigating** cloud provider lock-in, within a data-driven ecosystem grounded in the principles of openness, adaptability, data sharing, and aligned with a future edge market for services and data.
 
-# Structure of the the ICOS source code
-We are publishing in this organization all the open source code developed by ICOS. The code is organized in several repositories that corresponds to the different ICOS components. To start discovering the ICOS code, we suggest to start from:
+# Explore the ICOS EU project
 
-- [Documentation](https://github.com/icos-project/Documentation): the source code of the ICOS technical documentation available at https://www.icos-project.eu/docs/
-- [Shell](https://github.com/icos-project/Shell): the tool for users to access and operate an ICOS system
-- [ICOS Controller Suite](https://github.com/icos-project/ICOS-Controller-Suite): the Helm Chart to deploy a new ICOS Controller
-- [ICOS Agent Suite](https://github.com/icos-project/ICOS-Agent-Suite): the Helm Chart to deploy a new ICOS Agent
-- [ICOS Meta OS](https://github.com/icos-project/ICOS-Meta-OS): the entire ICOS System source code (obtained integrating the single components' source code repositories)
+🌐 Discover the innovative work of the **ICOS EU Project** by visiting the official website: https://icos-project.eu/
 
+---
 
-It is importnat to note that the repositories in this organizations are mirrors of the original repositories used by the ICOS team for the development (that are private).
+🤖 **Dive into ICOS Meta OS**
+
+Learn about ICOS Meta OS, the software developed by the ICOS project, through the official technical documentation: https://icos-project.eu/docs. The documentation is organized into several sections to guide you:
+
+- 🧭 [Concepts](https://icos-project.eu/docs/Concepts/): Understand the architecture and functionalities of ICOS Meta OS.
+
+- ⚙️ [Administration Guide](https://icos-project.eu/docs/Administration/): Learn how to deploy and manage an ICOS system.
+
+- 👤 [User Guide](https://icos-project.eu/docs/User/): Discover how to use an ICOS system effectively.
+
+- 💻 [Development Guide](https://icos-project.eu/docs/Developer/): Find out how to integrate with or extend ICOS components.
+
+- 📖 [Glossary](https://icos-project.eu/docs/Concepts/glossary/): Familiarize yourself with the main definitions and conventions used in ICOS.
+
+---
+
+🧱 **Structure of the ICOS Source Code**
+
+This organization hosts all the open-source code developed by the ICOS project. The code is organized into multiple repositories, each corresponding to a different component of the ICOS system.
+
+To begin exploring the ICOS code, we recommend starting with the following repositories:
+
+- 📘 [Documentation](https://github.com/icos-project/Documentation): Contains the source code for the ICOS [Techinical Documentation] provided in the [ICOS project website](https://www.icos-project.eu/docs/) 
+- 💻 [Shell](https://github.com/icos-project/Shell): A command-line tool that allows users to access and operate an ICOS system.
+- 🛠️ [ICOS Controller Suite](https://github.com/icos-project/ICOS-Controller-Suite): This repository provides all the essential details for installing and deploying the ICOS Controller in a Kubernetes cluster.
+- 📡 [ICOS Agent Suite](https://github.com/icos-project/ICOS-Agent-Suite):This repository includes all required details for installing and deploying the ICOS Agent in a Kubernetes cluster.
+- 🧠 [ICOS Meta OS](https://github.com/icos-project/ICOS-Meta-OS): This repository hosts the complete ICOS Meta OS codebase, structured by layers and modules, offering an easy way to explore the source code.
+
+⚠️ **Note**: The repositories in this organization are mirrors of the original, private repositories used internally by the ICOS development team.
 
 ---
 
